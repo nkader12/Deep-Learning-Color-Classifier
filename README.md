@@ -3,13 +3,13 @@ Create a classifier model in Jupyter Notebook using Pytorch to detect color in a
 
 Data_Files (Link: https://drive.google.com/file/d/1rpooEkZ198pWw34eK9SvT_aMhPHK89_V/view?usp=sharing):
 
-  -Images
-  -Images.zip
-  -test_new
-    -_annotations.csv
-  -styles.csv
+    -Images
+    -Images.zip
+    -test_new
+      -_annotations.csv
+    -styles.csv
   
-Python version: 3.10.12\n
+Python version: 3.10.12
 
 To run:
 
@@ -32,7 +32,7 @@ We will create a new folder called Data in the following format:
             Brown
                 Img5
                 Img6
-       
+
 Once loaded into this file format we will transform (resize, flip, convert to tensor) and load the images into a data frame. 
 Our network architecture is as follows (references VGG architecture):
 
