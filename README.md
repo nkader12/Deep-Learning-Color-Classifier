@@ -60,7 +60,7 @@ Our network architecture is as follows (references VGG architecture):
       )
     )
 
-The model gets trained with the train/test data from the Data folder. We achieve a training accuracy of approx. 64% and a test/validation accuracy of approx. 58%
+The model gets trained with the train/test data from the Data folder. We achieve a training accuracy of approx. 64% and a test/validation accuracy of approx. 59%
 
 To further test the model we load images from a new dataset (test_new) and see how our model predicts the color.
 
